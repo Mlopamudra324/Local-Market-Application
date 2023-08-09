@@ -1,0 +1,71 @@
+.navbarWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.navbarLeft {
+    flex: 1;
+}
+
+.navbarTitle {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.navbarCenter {
+    flex: 1;
+}
+
+.navbarSearchContainer {
+    border: none;
+    margin-top: 20px;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    color: gray;
+    font-size: 16px;
+}
+
+.navbarSearchContainer input {
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+.homeContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.listContainer {
+    -webkit-box-shadow: 5px 5px 15px 5px #D6D6D6;
+    box-shadow: 5px 5px 15px 5px #616060;
+    height: 150px;
+    width: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.productName {
+    font-size: 25px;
+    color: blue;
+}
+
+.productImg {
+    height: 150px;
+}
+
+.itemPrice {
+    color: #616060;
+}
+
+.productButton {
+    color: white;
+    background-color: rgb(89, 89, 246);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}

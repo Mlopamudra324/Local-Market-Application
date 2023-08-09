@@ -1,0 +1,40 @@
+.addProductForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 350px;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 5px 15px 5px #D6D6D6;
+    box-shadow: 5px 5px 15px 5px #D6D6D6;
+    margin: 5px 10px;
+
+}
+
+.addProductItem {
+
+    margin: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(84, 82, 82);
+}
+
+.addProductInput {
+    height: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
